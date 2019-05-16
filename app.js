@@ -6,11 +6,11 @@ const port = 3000;
 const routeContentMap = {
 	'/': {
 		title: 'test express',
-		body: 'hi!'
+		section01: 'hi!'
 	},
 	'/alt': {
 		title: 'alt test express',
-		body: 'some other content!'
+		section01: 'some other content!'
 	}
 };
 
