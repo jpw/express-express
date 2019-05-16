@@ -4,6 +4,7 @@
   "description": "simple express app",
   "main": "index.js",
   "scripts": {
+    "run": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,6 @@
   },
   "homepage": "https://github.com/jpw/express-express#readme",
   "dependencies": {
-    "express": "~4.16.4"
+    "express": "^4.16.4"
   }
 }

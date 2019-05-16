@@ -1,24 +1,24 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const app = express();
+const port = 3000;
 
-const html = {
-    title: 'test express',
-    body: 'hi!'
+const content = {
+	title: 'test express',
+	body: 'hi!'
 };
 
+//  <link rel="stylesheet" href="css/">
 const htmlResponse = `<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>${html.title}</title>
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+	<meta charset="utf-8">
+	<title>${content.title}</title>
 </head>
 <body>
-    ${html.body}
+	${content.body}
 </body>
 </html>`;
 
-app.get('/', (req, res) => res.send(htmlResponse))
+app.get('/', (req, res) => res.send(htmlResponse));
 
-app.listen(port, () => console.log(`Listening on port ${port}...`))
+app.listen(port, () => console.log(`Listening on port ${port}...`));
