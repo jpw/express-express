@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.16.4"
   },
-  "description": "A super-light express app basis for quick prototyping & testing",
+  "description": "A super-light express app basis for quick web site prototyping & testing",
   "homepage": "https://github.com/jpw/express-express#readme",
   "license": "ISC",
   "main": "app.js",
