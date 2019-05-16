@@ -7,6 +7,10 @@ const routeContentMap = {
 	'/': {
 		title: 'test express',
 		body: 'hi!'
+	},
+	'/alt': {
+		title: 'alt test express',
+		body: 'some other content!'
 	}
 };
 
