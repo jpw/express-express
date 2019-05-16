@@ -1,23 +1,23 @@
 {
-  "name": "express-express",
-  "version": "0.0.1",
-  "description": "simple express app",
-  "main": "app.js",
-  "scripts": {
-    "run": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "jpw",
+  "bugs": {
+    "url": "https://github.com/jpw/express-express/issues"
   },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "description": "A super-light express app basis for quick prototyping & testing",
+  "homepage": "https://github.com/jpw/express-express#readme",
+  "license": "ISC",
+  "main": "app.js",
+  "name": "express-express",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jpw/express-express.git"
   },
-  "author": "jpw",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jpw/express-express/issues"
+  "scripts": {
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/jpw/express-express#readme",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "version": "0.0.1"
 }
