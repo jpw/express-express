@@ -24,7 +24,7 @@ module.exports = ({title, section01}) => `<!doctype html>
 			border-radius: 10px;
 		}
 	</style>
-	</head>
+</head>
 <body>
 	<main>
 		<section>
