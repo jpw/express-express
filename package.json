@@ -1,0 +1,22 @@
+{
+  "name": "express-express",
+  "version": "0.0.1",
+  "description": "simple express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpw/express-express.git"
+  },
+  "author": "jpw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpw/express-express/issues"
+  },
+  "homepage": "https://github.com/jpw/express-express#readme",
+  "dependencies": {
+    "express": "~4.16.4"
+  }
+}
