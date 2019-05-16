@@ -7,15 +7,41 @@ const content = {
 	body: 'hi!'
 };
 
-//  <link rel="stylesheet" href="css/">
+
 const htmlResponse = `<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>${content.title}</title>
-</head>
+	<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+	<style>
+	* {
+		box-sizing: border-box:
+	}
+	html, body {
+		background-color: #ccc;
+	}
+	main {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+		margin: 2em;
+		column-gap: 1em;
+		row-gap: 1em;
+		padding: 1em;
+		background-color: #dedede;
+		border-radius: 10px;
+	}
+	</style>
+	</head>
 <body>
-	${content.body}
+<div>
+	<main>
+		<section>
+			${content.body}
+		</section>
+	</main>
+</div>
 </body>
 </html>`;
 
