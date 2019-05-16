@@ -6,7 +6,7 @@ module.exports = ({title, section01}) => `<!doctype html>
 	<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
 	<style>
 		* {
-			box-sizing: border-box:
+			box-sizing: border-box;
 		}
 		html, body {
 			background-color: #ccc;
