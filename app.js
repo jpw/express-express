@@ -11,7 +11,7 @@ const routeContentMap = {
 };
 
 Object.entries(routeContentMap).forEach(([route, content]) => {
-	console.log(`seting up ${route}`)
+	console.log(`seting up ${route}`);
 	app.get(route, (req, res) => res.send(template(content)));
 });
 
