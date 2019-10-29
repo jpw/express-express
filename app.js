@@ -17,6 +17,11 @@ const routeContentMap = {
 
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/9PnbKL3wuH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		`,
+		section02: `
+		<!-- OneTrust Cookies Settings button start -->
+		<b><a class="optanon-show-settings">Review Cookie Settings</a></b>
+		<!-- OneTrust Cookies Settings button end -->
+		`,
 		section03: `
 			<h2>OneTrust Cookies List output:</h2>
 			<!-- OneTrust Cookies List start -->
