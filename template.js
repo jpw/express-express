@@ -1,4 +1,4 @@
-module.exports = ({title, section01}) => `<!doctype html>
+module.exports = ({title, section01 = '', section02 = '', section03 = ''}) => `<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -27,9 +27,15 @@ module.exports = ({title, section01}) => `<!doctype html>
 </head>
 <body>
 	<main>
-		<section>
-			${section01}
-		</section>
+	<section>
+		${section01}
+	</section>
+	<section>
+		${section02}
+	</section>
+	<section>
+		${section03}
+	</section>
 	</main>
 </body>
 </html>`;
