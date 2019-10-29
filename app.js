@@ -21,8 +21,9 @@ const routeContentMap = {
 			<ol>
 				<li>Click Cookie Settings in the banner</li>
 				<li>Check that Targeting Cookies are off</li>
+				<li>Close the Privacy Preference Centre (X)</li>
 				<li>Click Accept Cookies in the banner</li>
-				<li>Click this button to review your choices 👇 <a class="optanon-show-settings">Review Cookie Settings</a></li>
+				<li>Click this button to check Targeting Cookies now on <a class="optanon-show-settings">Review Cookie Settings</a></li>
 			</ol>
 			`,
 		section02: `
