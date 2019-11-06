@@ -7,7 +7,7 @@ const routeContentMap = {
 	'/': {
 		title: 'C is for Cookie',
 		section01: `
-			<h1>This drops some YT & doubleclick 3rd party <b>COOKIES</b>!</h1>
+			<h1>This drops some YT & doubleclick 3rd party <b>cookies</b>!</h1>
 			<!-- OneTrust Cookies Consent Notice start -->
 			<script src="https://optanon.blob.core.windows.net/consent/da8ae7a6-9f59-470b-ac2a-7de78fd76704.js" type="text/javascript" charset="UTF-8"></script>
 			<script>
@@ -27,6 +27,7 @@ const routeContentMap = {
 			</ol>
 			`,
 		section02: `
+		<p><a href="https://nature.com">Here is a link</a> for a11y testing purposes.</p>
 		`,
 		section03: `
 			<h2>FYI: OneTrust Cookies List output:</h2>
