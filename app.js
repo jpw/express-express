@@ -25,6 +25,8 @@ This will display either "Do Not Sell My Data" button or "Cookie Settings" butto
 
 */
 
+const testHash = '1cab1755-155f-4052-86f8-2fe5384c9f12-test';
+const prodHash = '1cab1755-155f-4052-86f8-2fe5384c9f12';
 const routeContentMap = {
 	'/': {
 		title: 'C is for Cookie',
@@ -33,7 +35,7 @@ const routeContentMap = {
 			<!-- OneTrust Cookies Consent Notice start -->
 			<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
 				type="text/javascript" charset="UTF-8"
-				data-domain-script="1cab1755-155f-4052-86f8-2fe5384c9f12"></script>
+				data-domain-script="${testHash}"></script>
 			<script type="text/javascript">
 				function OptanonWrapper() { }
 			</script>
