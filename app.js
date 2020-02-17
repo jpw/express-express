@@ -3,14 +3,34 @@ const template = require('./template');
 const app = express();
 const port = process.env.PORT || 3000;
 
+/*
+OLD CODE 5.7
+<!-- OneTrust Cookies Consent Notice start -->
+<script src="https://optanon.blob.core.windows.net/consent/da8ae7a6-9f59-470b-ac2a-7de78fd76704.js" type="text/javascript" charset="UTF-8"></script>
+<script>
+	function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+
+THIS SEEMS NEW
+Do Not Sell & Cookie Setting Button
+This will display either "Do Not Sell My Data" button or "Cookie Settings" button based on where the site visitors come from according to geolocation rule group associated with the domain.
+<!-- OneTrust Cookies Settings button start -->
+<button id="ot-sdk-btn" class="ot-sdk-show-settings"> Cookie Settings</button>
+<!-- OneTrust Cookies Settings button end -->
+
+*/
+
 const routeContentMap = {
 	'/': {
 		title: 'C is for Cookie',
 		section01: `
 			<h1>This drops some YT & doubleclick 3rd party <b>cookies</b>!</h1>
 			<!-- OneTrust Cookies Consent Notice start -->
-			<script src="https://optanon.blob.core.windows.net/consent/da8ae7a6-9f59-470b-ac2a-7de78fd76704.js" type="text/javascript" charset="UTF-8"></script>
-			<script>
+			<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+				type="text/javascript" charset="UTF-8"
+				data-domain-script="1cab1755-155f-4052-86f8-2fe5384c9f12"></script>
+			<script type="text/javascript">
 				function OptanonWrapper() { }
 			</script>
 			<!-- OneTrust Cookies Consent Notice end -->
@@ -32,7 +52,7 @@ const routeContentMap = {
 		section03: `
 			<h2>FYI: OneTrust Cookies List output:</h2>
 			<!-- OneTrust Cookies List start -->
-			<div id="optanon-cookie-policy"></div>
+			<div id="ot-sdk-cookie-policy"></div>
 			<!-- OneTrust Cookies List end -->
 		`
 	},
