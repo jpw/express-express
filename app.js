@@ -7,24 +7,6 @@ const port = process.env.PORT || 3000;
 
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
-/*
-OLD CODE 5.7
-<!-- OneTrust Cookies Consent Notice start -->
-<script src="https://optanon.blob.core.windows.net/consent/da8ae7a6-9f59-470b-ac2a-7de78fd76704.js" type="text/javascript" charset="UTF-8"></script>
-<script>
-	function OptanonWrapper() { }
-</script>
-<!-- OneTrust Cookies Consent Notice end -->
-
-THIS SEEMS NEW
-Do Not Sell & Cookie Setting Button
-This will display either "Do Not Sell My Data" button or "Cookie Settings" button based on where the site visitors come from according to geolocation rule group associated with the domain.
-<!-- OneTrust Cookies Settings button start -->
-<button id="ot-sdk-btn" class="ot-sdk-show-settings"> Cookie Settings</button>
-<!-- OneTrust Cookies Settings button end -->
-
-*/
-
 const testHash = '1cab1755-155f-4052-86f8-2fe5384c9f12-test';
 const prodHash = '1cab1755-155f-4052-86f8-2fe5384c9f12';
 const routeContentMap = {
