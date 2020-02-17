@@ -1,7 +1,11 @@
 const express = require('express');
+const favicon = require('serve-favicon')
+const path = require('path')
 const template = require('./template');
 const app = express();
 const port = process.env.PORT || 3000;
+
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 /*
 OLD CODE 5.7
