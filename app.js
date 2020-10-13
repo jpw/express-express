@@ -5,12 +5,8 @@ const port = process.env.PORT || 3000;
 
 const routeContentMap = {
 	'/': {
-		title: 'test badging',
-		section01: 'hi!'
-	},
-	'/alt': {
 		title: 'iframe test',
-		section01: '<iframe  frameborder="0"  scrolling="no" src="https://openbadgepassport.com/app/badge/info/239909/pic/embed" width="200" height="270"></iframe>'
+		section01: '<p>iframe test</p><iframe  frameborder="0"  scrolling="no" src="https://openbadgepassport.com/app/badge/info/239909/pic/embed" width="200" height="270"></iframe>'
 	}
 };
 
