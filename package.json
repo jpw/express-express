@@ -16,8 +16,8 @@
     "url": "git+https://github.com/jpw/express-express.git"
   },
   "scripts": {
-    "run": "node app.js",
-    "start": "node app.js",
+    "run": "node --watch app.js",
+    "start": "node --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "0.0.1"
