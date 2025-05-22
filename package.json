@@ -4,7 +4,7 @@
     "url": "https://github.com/jpw/express-express/issues"
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.2"
   },
   "description": "A super-light express app basis for quick web site prototyping",
   "homepage": "https://github.com/jpw/express-express#readme",
